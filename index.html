@@ -1,0 +1,109 @@
+<DOCTYPE html>
+    <html lang="en-us">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Train Times</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    </head>
+
+    <body>
+
+        <div class="jumbotron">
+            <h1 class="text-center">Anytime is Train Time</h1>
+            <h2 class="text-center">Choo Choo. Chee Chee.</h2>
+        </div>
+
+
+
+      <!-- Most Recent Member Panel -->
+
+      <div class "row">
+            <!-- Current Train Schedule -->
+
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Current Train Schedule</h3>
+                    </div>
+                    <div class="panel-body">
+              </div>
+              <div class="panel-body" id="recent-trains">
+                  <table>
+                      <tr>
+                          <th>Train Name</th>
+                          <th>Destination</th>
+                          <th>Frequency (min)</th>
+                          <th>Next Arrival</th>
+                          <th>Minutes Away</th>
+                      </tr>
+                      
+
+
+                  </table>
+                <h2 id="train-name-display"></h2>
+                <h4 id="email-display">Email: jimmy@john.edu</h4>
+                <h4 id="age-display">Age: 27</h4>
+                <p id="comment-display">I'm signing up, because I want to spread sandwiches to the world.</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+
+
+
+
+
+
+        <div class "row">
+            <!-- Add Train -->
+
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Add Train</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <!--  (note the various input "types")-->
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="train-name-input">Train Name</label>
+                                <input class="form-control" id="train-name-input" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="dest-input">Destination</label>
+                                <input class="form-control" id="dest-input" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="first-train-time-input">First Train Time (HH:mm - military time)</label>
+                                <input class="form-control" id="first-train-time-input" type="number">
+                            </div>
+                            <div class="form-group">
+                                <label for="frequency-input">Frequency (min)</label>
+                                <textarea class="form-control" id="frequency-input" type="text"></textarea>
+                            </div>
+                            <button class="btn btn-default" id="submit" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+
+
+
+    </body>
+
+
+    </html>
