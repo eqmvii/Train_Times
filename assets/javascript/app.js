@@ -1,7 +1,4 @@
 
-// moment().format('dddd');
-
-
 // Initialize firebase
 
 
